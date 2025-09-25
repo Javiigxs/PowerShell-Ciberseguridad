@@ -17,3 +17,7 @@ function Verificar-Archivo {
         Write-Host "Verificación finalizada para: $Ruta" -ForegroundColor Cyan
     }
 }
+
+<# Ejemplo de uso:
+ Verificar-Archivo -Ruta "C:\Users\PersonalUser\Desktop\archivo.txt"
+ #>
