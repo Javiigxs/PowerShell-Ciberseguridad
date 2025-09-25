@@ -1,0 +1,1 @@
+Ese script obtiene todos los procesos que están corriendo en tu computadora, filtra únicamente los que consumen más de 10 MB de memoria RAM y guarda la lista en un archivo de texto cuyo nombre incluye la fecha del día (por ejemplo: Procesos_Filtrados_2025_09_25.txt), lo que permite llevar un registro claro de qué programas estaban usando más memoria en un momento específico.
