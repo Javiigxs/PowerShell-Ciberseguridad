@@ -1,6 +1,6 @@
 import sys, requests, time
 if len(sys.argv) != 2:
-    print("Uso: python verificar_correo.py javigygy@gmail.com")
+    print("Uso: python verificar_correo.py correo@example.com")
     sys.exit(1)
 
 correo = sys.argv[1]
@@ -50,4 +50,5 @@ elif response.status_code == 404:
 elif response.status_code == 401:
     print("Error de autenticación: revisa tu API key.")
 else:
+
     print(f"Error inesperado. Código de estado: {response.status_code}")
