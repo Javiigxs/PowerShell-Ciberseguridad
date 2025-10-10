@@ -1,1 +1,1 @@
-hola
+Este script funciona para ver si algun correo ah sido expuesto en alguna brecha de seguridad por medio de una api la cual tenemos que guardar en un archivo llamado "apikey.txt" para que el script lea la llave y acceda a la pagina por medio de ella 
